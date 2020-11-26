@@ -32,6 +32,11 @@ export class InicioPage implements OnInit {
       icon:'boat-sharp',
       name:'Botones',
       redirectTo: '/button' 
+    },
+    {
+      icon:'card-outline',
+      name:'Cards',
+      redirectTo: '/card' 
     }
   ];
   constructor() { }
