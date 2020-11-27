@@ -68,5 +68,10 @@
       "icon":"refresh",
       "name":"Loading",
       "redirectTo": "/loading" 
+    },
+    {
+      "icon":"megaphone-sharp",
+      "name":"Modal",
+      "redirectTo": "/modal" 
     }
   ]
