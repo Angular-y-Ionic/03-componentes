@@ -67,6 +67,11 @@ export class InicioPage implements OnInit {
       icon:'hammer-outline',
       name:'Inputs',
       redirectTo: '/input' 
+    },
+    {
+      icon:'list-outline',
+      name:'List - sliding',
+      redirectTo: '/list' 
     }
   ];
   constructor() { }
