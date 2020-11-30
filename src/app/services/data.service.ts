@@ -15,6 +15,9 @@ export class DataService {
   getMenuOpts(){
     return this.http.get<Componente[]>('/assets/data/menu-opts.json');
   }
+  getSuperheroes(){
+    return this.http.get<any[]>('/assets/data/superheroes.json');
+  }
   getAlbums(){
     return this.http.get<any>('https://jsonplaceholder.typicode.com/albums');
   }

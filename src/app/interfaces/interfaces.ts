@@ -3,4 +3,10 @@ export interface Componente {
     name: string,
     redirectTo: string
   }
-  
+// export interface Superheroes {
+//     superhero: string,
+//     publisher: string,
+//     alter_ego: string,
+//     first_appearance: string,
+//     characters: string
+//   }
