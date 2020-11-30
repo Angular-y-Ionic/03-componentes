@@ -19,11 +19,6 @@ export class SegmentPage implements OnInit {
     this.superHeroes = this.dataService.getSuperheroes();
   }
   segmentChanged(event) {
-    if (event.detail.value === "Todos") {
-      this.txtBuscar = '';
-    }
-    else{
-      this.txtBuscar = event.detail.value;
-    }
+    this.txtBuscar = event.detail.value;
   }
 }
